@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Block Swap</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+  </head>
+  <body>
+
+    <header>
+        <h1>Soumar dex</h1>
+        <div>
+            <button type="button" class="login">
+                Connect Wallet
+            </button>
+        </div>
+    </header>
+
+    <div class="swap">
+        <p>ETH
+        <input type="number" placeholder="0" id="input"></input></br>
+        <select id="select_token">
+            <option>select tokens</option>
+            <option id="sou" value="sou">SOU</option>
+            <option id="sawa" value="sawa">SAWA</option>
+            <option id="shou" value="shou">SHOU</option>
+        <input placeholder="0" id="output"></input>
+        <button type="button" id="swap">swap</button>
+    </div>
+
+    <p id="user_address"></p>
+  </body>
+  <script src="./assets/app.js"></script>
+</html>

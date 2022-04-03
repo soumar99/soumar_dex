@@ -1,0 +1,156 @@
+await sou.address
+const sou = erc.deploy("sou", "SOU", 10000);
+const erc = await ethers.getContractFactory("ERC20");
+await owner.getBalance();
+await sou.balanceOf(d.address);
+await sou.balanceOf(owner.address);
+await d.sellToken(sou.address, 1, 500, {from: owner.address, value: 1});
+await sou.approve(d.address, sou.balanceOf(owner.address), {from: owner.address});
+await d.sellToken(sou.address, 1, 500, {from: owner.address,value:1});
+await sou.transfer(d.address, 5000);
+const d = await Dex.deploy([sou.address]);
+const dex = Dex.deploy([sou.address]);
+const Dex = await ethers.getContractFactory("Dex");
+const sou = await erc.deploy("SOU", "sou", 10000);
+const erc = await ethers.getContractFactory("ERC20");
+const owner = await ethers.getSigner();
+await dex.sellToken(sou.address, 1, 100, {from: owner.address, value: 1});
+await sou.balanceOf(owner.address);
+await sou.allowance(owner.address, dex.address);
+await sou.approve(dex.address, sou.balanceOf(owner.address), {from: owner.address});
+await owner.address
+await dex.address
+await dex.sellToken(sou.address, 1, 500, {from: owner.address, value: 1});
+await dex.sellToken(sou.address, 1, 500, {from: sou.address, value: 1});
+await sou.balanceOf(user2.address);
+await sou.transfer(user2.address, 2500);
+await sou.balanceOf(user2.address);
+await sou.balanceOf(dex.address);
+await sou.transfer(dex.address, 5000);
+const dex = await Dex.deploy([sou.address, natu.address]);
+const Dex = await ethers.getContractFactory("Dex");
+cosnt Dex = await ethers.getContractFactory("Dex");
+const natu = await erc.deploy("NATU", "natu", 5000);
+const sou = await erc.deploy("SOU", "sou", 10000);
+const erc = await ethers.getContractFactory("ERC20");
+const [owner, user2, user3] = await ethers.getSigners();
+npx hardhat compile
+await dex.sellToken(sou.address, 1, 25, {from: owner.address, value: 1});
+await sou.approve(owner.address, 100);
+await dex.sellToken(sou.address, 1, 25, {from: owner.address, value: 1});
+await sou.balanceOf(dex.address);
+await sou.balanceOf(owner.address);
+await dex.buyToken(natu.address, 2, 10, {from: owner.address, value: 2});
+await owner.getBalance();
+awati owner.getBalance();
+await sou.balanceOf(owner.address);
+await dex.buyToken(sou.address, 1, 50, {from: owner.address, value: 1});
+await dex.buyToken(sou.address, 1, 50, {from: owner, value: 1});
+await dex.buyToken(sou.address, 1, 50);
+await natu.transfer(dex.address, 500);
+await sou.transfer(dex.address, 1000);
+const dex = await Dex.deploy([sou.address, natu.address]);
+const natu = await erc.deploy("NATU", "natu", 500);
+const Dex = await ethers.getContractFactory("Dex");
+const sou = await erc.deploy("SOU", "sou", 1000);
+const erc = await ethers.getContractFactory("ERC20");
+const owner = await ethers.getSigner();
+await dex.buyToken(sou.address, 1, 50);
+await owner.getBalance();
+await sou.balanceOf(owner.address);
+await sou.balanceOf(dex.address);
+await sara.transfer(dex.address, 5000);
+await natu.transfer(dex.address, 7000);
+natu.transfer(dex.address, 7000);
+await sou.transfer(dex.address, 10000);
+await dex.address
+const dex = await DEX.deploy([sou.address, natu.address, sara.address]);
+cosnt dex = await DEX.deploy([sou.address, natu.address, sara.address]);
+const DEX = await ethers.getContractFactory("Dex");
+const sara = await erc20.deploy("SARA", "sara", 5000);
+const natu = await erc20.deploy("NATU", "natu", 7000);
+const sou = await erc20.deploy("SOU", "sou", 10000);
+const erc20 = await ethers.getContractFactory("ERC20");
+const [owner, user2, user3] = await ethers.getSigners();
+await sou.balanceOf(owner.address);
+await natu.transfer(d.address, 5000);
+await teti.transfer(d.address, 4000);
+await sou.transfer(d.address, 10000);
+await d.address
+const d = await Dex.deploy([sou.address, natu.address, teti.address]);
+const dex = Dex.deploy([sou.address, natu.address, teti.address]);
+await teti.address
+const teti = await erc20.deploy("TETI", "teti", 4000);
+sara = null;
+sara = null
+sara = await erc20.deploy("SARA", "sara", 4000);
+await natu.address
+await sara.address
+const dex = await Dex.deploy([sou.address, natu.address, sara.address]);
+const Dex = await ethers.getContractFactory("Dex");
+const sara = erc20.deploy("SARA", "sara", 4000);
+await natu.address
+const natu = await erc20.deploy("NATU", "natu", 5000);
+const sou = await erc20.deploy("SOU", "sou", 10000);
+const erc20 = await ethers.getContractFactory("ERC20");
+const [owner, user2,user3] = await ethers.getSigners();
+await dex.address
+await web3.eth.getBalance(user2.address);
+await dex.balance();
+await dex.sellToken(sou.address, 1, 500);
+await dex.buyToken(sou.address, 1, 50);
+await sou.balanceOf(user2.address);
+await sou.balanceOf(owner.address);
+await sou.totalSupply();
+await sou.balanceOf(dex.address);
+await sou.transfer(dex.address, 5000);
+await sou.balanceOf(dex.address);
+await owner.getBalance();
+await owner.getBalance
+await owner.value();
+awiat owner.valueOf;
+await natuki.balanceOf(user2.address);
+await dex.address
+const dex = await DEX.deploy(addresses);
+var addresses = ["0x5FbDB2315678afecb367f032d93F642f64180aa3", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"];
+await sara.address
+await natuki.address
+await sou.address
+const DEX = await ethers.getContractFactory("Dex");
+await sara.name();
+const sara = await token.deploy("SARA", "sara", 3000);
+await natuki.name();
+awiat natuki.name();
+const natuki = await token.deploy("NATUKI","natuki", 5000);
+await sou.name();
+const sou = await token.deploy("SOU", "sou", 10000);
+const token = await ethers.getContractFactory("ERC20");
+const [owner, user2, user3] = await ethers.getSigners();
+awiat erc20.address
+awiat token.address;
+await token.address();
+awiat token.address
+const sara = await Token.deploy("SARA", "sara", 40000);
+const natuki = await Token.deploy("Natuki", "natuki", 50000);
+await owner.getBalance();
+await owner.balance();
+await token.balanceOf(user2.address);
+await token.transfer(user2.address, 500);
+awiat token.transfer(user2.address, 500);
+await token.balanceOf(owner.address);
+await token.balanceOf(user2.address);
+await token.transfer(user2.address, 500);
+token.transfer(user2.address, 500);
+await token.balanceOf(user2.address);
+await token.balanceOf(owner.address);
+await token.name();
+await token.name
+token.name
+const token = await Token.deploy("SOU", "sou", 10000);
+const Token = await ethers.getContractFactory("ERC20");
+user2.address
+owner.address
+const [owner, user2, user3] = await ethers.getSigners();
+const erc20 = await token.deploy("Sou", "sou", 10000);
+const token = await ethers.getContractFactory("ERC20");
+const ownder = await ethers.getSigner();
